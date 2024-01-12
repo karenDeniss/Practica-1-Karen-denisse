@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+.section {
+    flex: 1;
+    position: relative;
+}
+.titulo {
+
+    background-image: linear-gradient(to bottom right, #33475b, #0033CC, #FF77CC, rgb(255, 122, 89));
+    
+}
+
+.datos {
+    background-image: linear-gradient(to bottom right, #a1c3e5, #3e63d1, #3b4886, rgb(76, 72, 141));
+    text-align: center;
+
+}
+.section {
+    padding-left: 30px;
+}
+.circle {
+    width: 160px;
+    height: 160px;
+    background-image: url('./foto.jpeg'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+h1{
+    text-align: center;
+}
